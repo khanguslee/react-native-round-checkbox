@@ -10,7 +10,7 @@ Pure js, lightweight checkbox styled as in iOS. Depends on `react-native-vector-
 
 `import RoundCheckbox from 'rn-round-checkbox';`
 
-![Example 1](https://raw.githubusercontent.com/vonovak/react-native-round-checkbox/master/image.png 'Example 1')
+![Example 1](https://raw.githubusercontent.com/vonovak/react-native-round-checkbox/master/image.png "Example 1")
 
 ```
 <RoundCheckbox
@@ -22,14 +22,15 @@ Pure js, lightweight checkbox styled as in iOS. Depends on `react-native-vector-
 
 ### Props
 
-| Property        | Type      | Default       | Description                                  |
-| --------------- | --------- | ------------- | -------------------------------------------- |
-| icon            | `string`  | ios-checkmark | name of icon (from Ionicons) in the checkbox |
-| backgroundColor | `string`  | '#007AFF'     | background color when checked                |
-| size            | `number`  | 24            | icon size                                    |
-| iconColor       | `string`  | 'white'       | icon color                                   |
-| borderColor     | `string`  | 'grey'        | border color                                 |
-| checked         | `boolean` | false         | checked                                      |
-| onValueChange   | function  |               | function called on change with new value     |
+| Property        | Type      | Default                                  | Description                                           |
+| --------------- | --------- | ---------------------------------------- | ----------------------------------------------------- |
+| icon            | `string`  | ios-checkmark                            | name of icon (from Ionicons) in the checkbox          |
+| backgroundColor | `string`  | '#007AFF'                                | background color when checked                         |
+| size            | `number`  | 24                                       | icon size                                             |
+| iconColor       | `string`  | 'white'                                  | icon color                                            |
+| borderColor     | `string`  | 'grey'                                   | border color                                          |
+| checked         | `boolean` | false                                    | checked                                               |
+| hitSlop         | `object`  | `{top: 8, bottom: 8, left: 8, right: 8}` | Defines the 'window' that you can select the checkbox |
+| onValueChange   | function  |                                          | function called on change with new value              |
 
 License: MIT
